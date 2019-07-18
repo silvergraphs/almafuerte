@@ -1,0 +1,34 @@
+
+
+almafuerte.edu.net
+
+------------------------------------------------
+
+
+ sqlQuery (string $table, string $document, &$result);
+ Executes SQL query in connected database.
+ Returns the user specified data in $result table.
+
+ $table valid values:
+
+ - "alumnos"
+ - "directivos"
+ - "profesores"
+
+ 	
+ puedeSubirArchivos (string $tipoUsuario)
+ Specifies whether or not files can be uploaded by the specified user.
+ Returns boolean true or false otherwise.
+
+ puedeSubirArchivos (string $tipoUsuario)
+ Specifies whether or not files can be downloaded by the specified user.
+ Returns boolean true or false otherwise.
+
+ puedeModificarArchivos (string $tipoUsuario)
+ Specifies whether or not files can be modified by the specified user.
+ Returns boolean true or false otherwise.
+
+ $tipoUsuario valid values:
+ - "alumno"
+ - "profesor"
+ - "directivo"

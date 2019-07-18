@@ -1,0 +1,65 @@
+﻿
+almafuerte.edu.net
+
+-------------------------------------------------
+
+[13/08/2018]
+* [FRONTEND] Terminada sección Materiales
+* [BACKEND] Avance en sección Materiales
+
+[09/08/2018]
+* [BACKEND] Avance en sección Materiales
+
+[13/07/2018]
+* Avance en el back-end de la sección Materiales->Subir material
+* Front-end de la sección Materiales->Subir material finalizado
+
+[12/07/2018]
+* Reemplazada la columna Especialidades por Publicidad en el front-end general
+* La columna Especialidades esta ahora en el Index
+
+[05/07/2018]
+* Avance en el front-end de la sección Materiales->Subir material
+
+[02/07/2018]
+* Creado en parte el front-end de la sección Materiales->Subir material
+
+[22/06/2018]
+* Creado el front-end de la sección Materiales
+
+[21/06/2018]
+* Creada la sección Panel de Usuario/Materiales
+* Creadas funciones de permisos para el manejo de archivos
+
+[08/06/2018]
+* Seccion terminada: Panel de Usuario/Cambio de Email
+* Reparado un error en llamado a la funcion reg del login
+
+[07/06/2018]
+* Seccion terminada: Panel de Usuario/Cambio de Usuario
+
+
+[31/05/2018]
+* Modificados los tiempos de redireccion en errores (3s -> 1s)
+* Secci�n terminada: Panel de Usuario/Cambio de Clave
+* Secci�n terminada: Panel de Usuario/Configuraci�n
+* Reparado un error en inicio de sesi�n
+
+[28/05/2018]
+* Creada la seccion Configuracion en el Panel de Usuario
+* Editada levemente la seccion de Mis Datos en el Panel de Usuario
+
+[21/05/2018]
+* Actualizado el archivo .htaccess con variable %{HTTP_HOST} en los ErrorDocument
+* Formateado el mensaje de error de conexion a la base de datos
+* Terminada la seccion Mis Datos en el Panel de Usuario
+
+[18/05/2018]
+* Modificado el tiempo de redireccion del logout (3s -> 0s)
+* Creada la seccion Mis Datos en el Panel de Usuario
+* A�adida la informacion real de a�o,division, y especialidad al apartado Panel de Usuario cuando estaba la sesion iniciada
+
+[11/05/2018]
+* Modificados los efectos en los botones del menu principal
+* Terminada la diferenciacion de tipos de usuario en el registro (Alumno/Profesor/Directivo)
+* Modificados los nombres de las tablas dniAlumno,dniProfesores,dniDirectivos -> docAlumno,docProfesor,docDirectivo

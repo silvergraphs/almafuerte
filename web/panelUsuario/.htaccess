@@ -1,0 +1,21 @@
+# ALMAFUERTE WEBSITE
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([a-z]+)\/?$ $1.php [NC]
+</IfModule>
+
+# ALMAFUERTE WEBSITE
+
+ErrorDocument 404 http://%{HTTP_HOST}/error?pagina=sistema&error=404%20-%20No%20encontrado
+ErrorDocument 400 http://%{HTTP_HOST}/error?pagina=sistema&error=400%20-%20Bad%20request
+ErrorDocument 401 http://%{HTTP_HOST}/error?pagina=sistema&error=401%20-%20No%20autorizado
+ErrorDocument 403 http://%{HTTP_HOST}/error?pagina=sistema&error=403%20-%20Forbidden
+ErrorDocument 500 http://%{HTTP_HOST}/error?pagina=sistema&error=500%20-%20Internal%20server%20error
+
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|log|bak|php|)$">
+ Order Allow,Deny
+ Allow from all
+</FilesMatch>
